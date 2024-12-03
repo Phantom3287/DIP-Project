@@ -10,6 +10,7 @@ import (
 	"path/filepath"
 	"strconv"
 
+	"github.com/gin-contrib/cors"
 	"github.com/gin-gonic/gin"
 )
 
@@ -28,6 +29,9 @@ func main() {
 	outputDir := "./output"
 
 	r.Static("/output", outputDir)
+
+	r.Use(cors.New(cors.Config{
+        AllowOrigins:     []string{"http://localhost:3000"}}))
 
 	// Routes
 	r.GET("/ping", func(c *gin.Context) {
