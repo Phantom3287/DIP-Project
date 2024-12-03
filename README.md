@@ -4,7 +4,7 @@ Implementation of Shi-Tomashi, Harris, and FAST Corner Detection Algorithm in go
 
 Report is submitted in this repository as well
 
-## prerequisites
+## Prerequisites
 Node js and Go should be installed on your desktop.
 
 ## To run the algorithms: 
@@ -22,4 +22,4 @@ Node js and Go should be installed on your desktop.
     ```
 > Now our app is live on http://localhost:3000
 
-**You can see the detailed report [here](https://www.overleaf.com/read/gvfcxzzwcgwr#a3c8d5)**
+**You can see the detailed report [here]([https://www.overleaf.com/read/gvfcxzzwcgwr#a3c8d5](https://drive.google.com/file/d/1YMzZoSb637roswMuaOA3Z1cMQfTCDFUu/view?usp=drive_link))**
